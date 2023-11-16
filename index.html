@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Supermarché en ligne</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="logo">INTERMARCHE DRIVE</h1>
+        <p>Votre destination pour des courses faciles et rapides</p>
+       
+            <ul class="menu">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#panier">Panier</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        
+    </header>
+
+    
+    <section id="accueil">
+        <div class="left">
+        <h2>Bienvenue sur notre site de supermarché en ligne</h2>
+        <p> 
+            Pour faire vos courses en ligne, rendez-vous sur intermarche.com ou drive.intermarche.com ou téléchargez notre application Intermarché et choisissez un magasin qui propose les courses en ligne (Drive, Drive 24/24, Livraison à domicile...). Vérifiez si votre commune est desservie par la livraison.
+            Commandez en ligne dès maintenant dans le magasin Intermarché le plus proche de chez vous. Les mêmes produits aux mêmes prix qu'en magasin, des offres et des promotions.
+        </p>
+      </div>
+      <div class="right"><img src="supermarche.jpg" alt="supermarché"></div>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produits">
+            <div class="produit">
+                <img src="spaghetti.jpg" alt="Produit 1">
+                <p>spaghetti</p>
+                <p><strong>Prix:</strong> 10.99£</p>
+                <button onclick="ajouterAuPanier(1)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="sac.jpg" alt="Produit 14">
+                <p>spaghetti</p>
+                <p><strong>Prix:</strong> 6.99£</p>
+                <button onclick="ajouterAuPanier(14)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="lait.jpg" alt="Produit 13">
+                <p>lait</p>
+                <p><strong>Prix:</strong> 1.99£</p>
+                <button onclick="ajouterAuPanier(13)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="sac à main.jpg" alt="Produit 15">
+                <p>sac à main</p>
+                <p><strong>Prix:</strong> 14.99£</p>
+                <button onclick="ajouterAuPanier(15)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="bon sac à main.jpg" alt="Produit 2">
+                <p>bon sac à main</p>
+                <p><strong>Prix:</strong> 10.99£</p>
+                <button onclick="ajouterAuPanier(2)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="eau.png" alt="Produit 3">
+                <p>eau</p>
+                <p><strong>Prix:</strong> 1.14£</p>
+                <button onclick="ajouterAuPanier(3)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="lait1.jpg" alt="Produit 4">
+                <p>lait</p>
+                <p><strong>Prix:</strong> 3.99£</p>
+                <button onclick="ajouterAuPanier(4)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="pain.jpg" alt="Produit 5">
+                <p>pain</p>
+                <p><strong>Prix:</strong> 0.99£</p>
+                <button onclick="ajouterAuPanier(5)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="pommes de terre.jpg" alt="Produit 6">
+                <p>pommes de terre</p>
+                <p><strong>Prix:</strong> 4.99£</p>
+                <button onclick="ajouterAuPanier(6)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="pommes.jpg" alt="Produit 7">
+                <p>pommes</p>
+                <p><strong>Prix:</strong> 2.50£</p>
+                <button onclick="ajouterAuPanier(7)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="riz.jpg" alt="Produit 8">
+                <p>riz</p>
+                <p><strong>Prix:</strong> 5.99£</p>
+                <button onclick="ajouterAuPanier(8)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="sac à dos.jpg" alt="Produit 9">
+                <p>sac à dos</p>
+                <p><strong>Prix:</strong> 15.99£</p>
+                <button onclick="ajouterAuPanier(9)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="sachetlegume.jpg" alt="Produit 10">
+                <p>legumes</p>
+                <p><strong>Prix:</strong> 5.99£</p>
+                <button onclick="ajouterAuPanier(10)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="veste.jpg" alt="Produit 11">
+                <p>veste</p>
+                <p><strong>Prix:</strong> 19.99£</p>
+                <button onclick="ajouterAuPanier(11)">Ajouter au Panier</button>
+            </div>
+            <div class="produit">
+                <img src="vetements.jpg" alt="Produit 12">
+                <p>habits</p>
+                <p><strong>Prix:</strong> 8.99£</p>
+                <button onclick="ajouterAuPanier(12)">Ajouter au Panier</button>
+            </div>
+        </div>
+
+        
+        <!-- Ajoutez d'autres produits de la même manière -->
+    </section>
+
+    <section id="panier">
+        <h2>Mon Panier</h2>
+        <div id="panier-liste">
+            <!-- Le panier sera affiché ici -->
+        </div>
+        <p>Total: <span id="total-prix">55.00</span>£</p>
+        <button onclick="passerLaCommande()">Passer la Commande</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Services disponibles: Drive disponible · Livraison sans contact · Aucun repas sur place<br>
+            Adresse : Rue Bernart de Ventadour, 87000 Limoges<br>
+            Horaires :<br>
+            lundi       08h-19h <br>
+            mardi       08h-19h <br>
+            mercredi    08h-19h <br>
+            jeudi       08h-19h <br>
+            vendredi    08h-19h <br>
+            samedi      08h-19h <br>
+            dimanche    08h-12h <br>
+            Téléphone : 05 55 30 70 40
+            
+        </p>
+    </section>
+
+    
+</body>
+</html>
